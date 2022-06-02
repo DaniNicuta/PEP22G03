@@ -5,5 +5,5 @@ value2 = "*" * 10
 print(value2)
 print()
 
-for i in range(5):   #gasita pe Google
-    print('*' * 10)
+for i in range(5):   # gasita pe Google
+    print('*' * 10, end='\n', sep='')
