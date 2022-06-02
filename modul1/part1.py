@@ -1,6 +1,5 @@
-# print('Hello World', 'My Object', end='\n', sep=' - abcd - ')
-#
-# print('print')
+print('Hello World', 'My Object', end='\n', sep=' - abcd - ')
+print('print')
 #
 # print('###')
 # print('# #')
