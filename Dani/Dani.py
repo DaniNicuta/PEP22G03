@@ -6,4 +6,4 @@ print(value2)
 print()
 
 for i in range(5):   #gasita pe Google
-    print('*' * 10,)
+    print('*' * 10)
