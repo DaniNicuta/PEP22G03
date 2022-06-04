@@ -1,25 +1,25 @@
 # INT
 number = 3
 print(type(number))
-print('Adress for number :', id(number))
+print('Address for number :', id(number))
 
 number = int('3')
-print('Adress for int:', id(number))
+print('Address for int:', id(number))
 print('Nr as text', type(number))
 
 # Float
 number = 3.1
 print(type(number))
-print('Adress for int:', id(number))
+print('Address for int:', id(number))
 
 number = float('3.1')
 print('Nr as text', type(number))
-print('Adress for float:', id(number))
+print('Address for float:', id(number))
 # bool
 bool_object = True
 print(type(bool_object))
 
-print('Adress for bool:', id(bool_object))
+print('Address for bool:', id(bool_object))
 
 print('Convert to bool:', bool(1))
 print('Convert to int: ', int(True))

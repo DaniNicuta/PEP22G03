@@ -19,8 +19,8 @@ print(my_number)
 a = 3
 b = 4
 c = 5
-#  x = (-b+((b**2-4*a*c)**(1/2))*2) * a
-#  print(x)
+x = (-b + ((b ** 2 - 4 * a * c) ** (1 / 2))) / (2 * a)
+print(x)
 
 
 bool_object = True
