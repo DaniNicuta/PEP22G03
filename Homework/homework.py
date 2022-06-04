@@ -1,9 +1,9 @@
 #  Quest  1
 
-#password = 'Passme1n'
-#passinput = input('Insert password: ')
-#result = password == passinput
-#print(result)
+#  password = 'Passme1n'
+#  passinput = input('Insert password: ')
+#  result = password == passinput
+#  print(result)
 
 #  Quest 2
 name1 = input('User 1: ')
