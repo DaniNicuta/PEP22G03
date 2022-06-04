@@ -16,16 +16,22 @@
 
 #  Quest 3
 
-name1 = input('User 1: ')
-name2 = input('User 2: ')
-print('Numarul de caractere user 1:', len(name1))
-print('Numarul de caractere este egal?', len(name1) == len(name2))
-print('Numarul de caractere al primului nume este mai mare?', len(name1) > len(name2))
-print('Initiala primului nume este: ', name1[0])
-print('Primul nume inversat: ', name1[::-1])
-number = input('Introduceti un numar:')
-number = int(number)
-print(name1 * number)
+#  name1 = input('User 1: ')
+#  name2 = input('User 2: ')
+#  print('Numarul de caractere user 1:', len(name1))
+#  print('Numarul de caractere este egal?', len(name1) == len(name2))
+#  print('Numarul de caractere al primului nume este mai mare?', len(name1) > len(name2))
+#  print('Initiala primului nume este: ', name1[0])
+#  print('Primul nume inversat: ', name1[::-1])
+#  number = input('Introduceti un numar:')
+#  number = int(number)
+#  print(name1 * number)
 
 #  Quest 4
 fruit = "Ananas"
+print(fruit[0])
+print(fruit[1])
+print(fruit[2])
+print(fruit[3])
+print(fruit[4])
+print(fruit[5])
