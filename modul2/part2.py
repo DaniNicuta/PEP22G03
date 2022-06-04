@@ -54,15 +54,13 @@ number2 = int(input('Number 2 is: '))
 
 print('Media numerelor: ', (number1 + number2)/2)
 
-
-
 venit = int(input('Venit :'))
 cheltuieli = 50 * venit/100
 hobby = 15 * venit/100
 economii = 10 * venit/100
-print(cheltuieli)
-print(hobby)
-print(economii)
+print('Buget alocat pentru cheltuieli:', cheltuieli)
+print('Buget alocat pentru hobby:', hobby)
+print('Buget alocat pentru economii:', economii)
 
 
 # complex numbers
@@ -72,5 +70,4 @@ my_number = 1 + 4j
 print(type(my_number))
 
 
-a*(x**x) + b*x + c = 0
-
+# a*(x**x) + b*x + c = 0

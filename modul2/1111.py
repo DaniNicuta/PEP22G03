@@ -54,8 +54,4 @@ print(not True and True)
 print(not True and False)
 print(not True or True)
 
-
-
 # print('a'.__add__('b'))
-
-
