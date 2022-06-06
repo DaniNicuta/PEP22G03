@@ -23,17 +23,22 @@
 #  print('Numarul de caractere al primului nume este mai mare?', len(name1) > len(name2))
 #  print('Initiala primului nume este: ', name1[0])
 #  print('Primul nume inversat: ', name1[::-1])
-#  number = input('Introduceti un numar:')
-#  number = int(number)
+#  number = int(input('Introduceti un numar:'))
 #  print(name1 * number)
 
 #  Quest 4
-fruit = "Ananas"
-print('\n', fruit[0], '\n', fruit[1], '\n', fruit[3], '\n', fruit[4], '\n', fruit[5])
+# fruit = "Ananas"
+# print('\n', fruit[0], '\n', fruit[1], '\n', fruit[3], '\n', fruit[4], '\n', fruit[5])
+#
+# print('Ana\nnas')
+#
+# print('An', ':', 'ana', ':', 's', sep='')
+# print('An', '_', 'ana', '_', 's', sep='')
+# print('nana' * 4)
 
-print('Ana\nnas')
+#  Exerctiul suplimentar
 
-print('An', ':', 'ana', ':', 's', sep='')
-print('An', '_', 'ana', '_', 's', sep='')
-print('nana' * 4)
+word = input('Introduceti un cuvant: ')
+reverse = word[::-1]
+print('Cuvantul este palindrom?', word == reverse)
 
