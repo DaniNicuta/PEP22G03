@@ -39,6 +39,7 @@
 #  Exerctiul suplimentar
 
 word = input('Introduceti un cuvant: ')
-reverse = word[::-1]
-print('Cuvantul este palindrom?', word == reverse)
+word1 = word.upper()
+reverse = word1[::-1]
+print('Cuvantul este palindrom?', word1 == reverse)
 
