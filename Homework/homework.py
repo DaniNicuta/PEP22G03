@@ -37,9 +37,15 @@
 # print('nana' * 4)
 
 #  Exerctiul suplimentar
-
+# 1
 word = input('Introduceti un cuvant: ')
 word1 = word.upper()
 reverse = word1[::-1]
 print('Cuvantul este palindrom?', word1 == reverse)
+
+#  2
+word = input('Introduceti un cuvant:')
+print('Cuvantul incepe cu majuscula?', word != word.isupper())
+
+
 
