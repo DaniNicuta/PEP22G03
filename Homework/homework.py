@@ -29,10 +29,11 @@
 
 #  Quest 4
 fruit = "Ananas"
-print(fruit[0])
-print(fruit[1])
-print(fruit[2])
-print(fruit[3])
-print(fruit[4])
-print(fruit[5])
+print('\n', fruit[0], '\n', fruit[1], '\n', fruit[3], '\n', fruit[4], '\n', fruit[5])
+
 print('Ana\nnas')
+
+print('An', ':', 'ana', ':', 's', sep='')
+print('An', '_', 'ana', '_', 's', sep='')
+print('nana' * 4)
+

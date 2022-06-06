@@ -1,4 +1,4 @@
-#print('Hello World', 'My Object', end='\n', sep=' - abcd - ')
+print('Hello World', 'My Object', end='\n', sep=' - abcd - ')
 #print('print')
 #
 # print('###')
