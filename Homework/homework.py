@@ -46,6 +46,3 @@ print('Cuvantul este palindrom?', word1 == reverse)
 #  2
 word = input('Introduceti un cuvant:')
 print('Cuvantul incepe cu majuscula?', word != word.isupper())
-
-
-
