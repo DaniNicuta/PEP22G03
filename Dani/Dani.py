@@ -45,19 +45,42 @@
 #     print("You've successfully left the loop.")
 
 
-userWord = input('Please write a word:')
-userWord = userWord.upper()
+# userWord = input('Please write a word:')
+# userWord = userWord.upper()
+#
+# for letter in userWord:
+#     if letter == 'A':
+#         continue
+#     elif letter == 'E':
+#         continue
+#     elif letter == 'I':
+#         continue
+#     elif letter == 'O':
+#         continue
+#     elif letter == 'U':
+#         continue
+#     else :
+#         print(letter)
 
-for letter in userWord:
-    if letter == 'A':
-        continue
-    elif letter == 'E':
-        continue
-    elif letter == 'I':
-        continue
-    elif letter == 'O':
-        continue
-    elif letter == 'U':
-        continue
-    else :
-        print(letter)
+
+# word_without_vowels = ''
+# userWord = input('Enter a word:')
+# userWord = userWord.upper()
+#
+# for letter in userWord:
+#     if letter in 'AEIOU':
+#         continue
+#     word_without_vowels = word_without_vowels + letter
+# print(word_without_vowels)
+
+
+# blocks = int(input('Enter the number of blocks:'))
+# height = 0
+# while blocks > height:
+#     height = height + 1
+#     blocks = blocks - height
+# print('The height of the pyramid:', height)
+
+
+
+
