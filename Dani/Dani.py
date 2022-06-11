@@ -33,4 +33,31 @@
 # y = 3 * x * x * x - 2 * x * x + 3 * x - 1
 # print('y =', y)
 
+# animal = input('Please choose animal:')
+#
+# while animal != 'chupacabra':
+#     if animal == 'chupacabra':
+#         break
+#     else:
+#         print('wrong animal, try again')
+#         animal = input('Please choose again:')
+# else:
+#     print("You've successfully left the loop.")
 
+
+userWord = input('Please write a word:')
+userWord = userWord.upper()
+
+for letter in userWord:
+    if letter == 'A':
+        continue
+    elif letter == 'E':
+        continue
+    elif letter == 'I':
+        continue
+    elif letter == 'O':
+        continue
+    elif letter == 'U':
+        continue
+    else :
+        print(letter)
