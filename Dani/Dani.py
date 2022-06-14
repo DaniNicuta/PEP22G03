@@ -262,3 +262,6 @@
 #
 # print('Formatted text: ', my_string.format(enva='a', envb='b', envc='c'))
 
+# var1 = "insert arici masina"
+# var1 = var1.replace('i', '|', 4)
+# print('Replaced i: ', var1)
