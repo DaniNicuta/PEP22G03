@@ -5,7 +5,7 @@
 # print(value2)
 # print()
 #
-# for i in range(5):   # gasita pe Google
+# for i in range(5):
 #     print('*' * 10, end='\n', sep='')
 #
 # print(4**-1)
@@ -83,4 +83,50 @@
 
 
 
+# for digit in "0165031806510":
+#     if digit == "0":
+#         print("x", end="")
+#         continue
+#     print(digit, end="")
+# print()
+# for digit in "0165031806510":
+#     if digit == "1":
+#         print("x", end="")
+#         continue
+#     print(digit, end="")
 
+#
+# hat_list = [1, 2, 3, 4, 5]
+#
+#
+# hat_list[2] = int(input("Enter an integer number: "))
+# del hat_list[4]
+# print('The length of the list:' , len(hat_list))
+#
+# print(hat_list)
+
+# my_list = []  # Creating an empty list.
+#
+# for i in range(5):
+#     my_list.append(i + 1)
+#
+# print(my_list)
+#
+#
+# my_list = []  # Creating an empty list.
+#
+# for i in range(5):
+#     my_list.insert(0, i + 1)
+#
+# print(my_list)
+
+# my_list = [1, None, True, 'I am a string', 256, 0]
+# print(my_list[3])  # outputs: I am a string
+# print(my_list[-1])  # outputs: 0
+#
+# my_list[1] = '?'
+# print(my_list)  # outputs: [1, '?', True, 'I am a string', 256, 0]
+#
+# my_list.insert(0, "first")
+# my_list.append("last")
+# print(my_list)  # outputs: ['first', 1, '?', True, 'I am a string', 256, 0, 'last']
