@@ -25,16 +25,16 @@
 #     print(f"Tipul obiectului {i} este:", type(i).__name__)
 
 
-lista = input('Introduceti lista de taskuri:')
-lista_taskuri = lista.split(",")
-print(lista_taskuri)
-# for task in lista_taskuri:
+# lista = input('Introduceti lista de taskuri:')
+# lista_taskuri = lista.split(",")
+# print(lista_taskuri)
+# # for task in lista_taskuri:
+# #     if lista_taskuri.count(task) > 1:
+# #         lista_taskuri.remove(task)
+# # print(f'Lista de taskuri: {lista_taskuri}')
+# for task in lista_taskuri.copy():
+#     lista_taskuri.count(task)
+#     print(f'Taskul: {task} se regaseste de {lista_taskuri.count(task)}')
 #     if lista_taskuri.count(task) > 1:
 #         lista_taskuri.remove(task)
-# print(f'Lista de taskuri: {lista_taskuri}')
-for task in lista_taskuri.copy():
-    lista_taskuri.count(task)
-    print(f'Taskul: {task} se regaseste de {lista_taskuri.count(task)}')
-    if lista_taskuri.count(task) > 1:
-        lista_taskuri.remove(task)
-print(lista_taskuri)
+# print(lista_taskuri)
