@@ -49,25 +49,8 @@
 
 
 #  Cap 3
-#  ex 5
 
-# obiecte = ['Masa', 5, 'Scaun', 4.5, [5,6,7], 8]
-# print(type(obiecte[0]))
-# print(type(obiecte[1]))
-# print(type(obiecte[2]))
-# print(type(obiecte[3]))
-# print(type(obiecte[4]))
-# print(type(obiecte[5]))
-# lista_nume = []
-# lista_numere = []
-# for item in obiecte:
-#     if type(item) == str:
-#         lista_nume.append(item)
-#     print('Obiectele string:', lista_nume)
 
-    # elif type(item) == int or type(item) == float:     #???
-    #     lista_numere.append(item)
-    # print('Obiecte int, float:', lista_numere)
 
 
 
@@ -82,13 +65,19 @@
 # print(count)
 
 
+# cap 3
+#  ex 5
+# obiecte = ['Masa', 5, 'Scaun', 4.5, [5,6,7], 8]
+# for i in obiecte :
+#     print(f"Tipul obiectului {i} este:", type(i).__name__)
+
    # ex 7
 
-lista = input('Introduceti lista de taskuri:')
-lista_taskuri = lista.split(",")
-print(lista_taskuri)
-for task in lista_taskuri:
-    if lista_taskuri.count(task) > 1:
-        lista_taskuri.remove(task)
-print(lista_taskuri)
+# lista = input('Introduceti lista de taskuri:')
+# lista_taskuri = lista.split(",")
+# print(lista_taskuri)
+# for task in lista_taskuri:
+#     if lista_taskuri.count(task) > 1:
+#         lista_taskuri.remove(task)
+# print(lista_taskuri)
 
