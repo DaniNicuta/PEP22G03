@@ -111,11 +111,12 @@
 # else:
 #     print('Done')
 
-counter = 0
-while input('Introduceti parola:') != '7788':
-    print('Parola gresita. Mai incercati.')
-    counter =+ 1
-    if counter == 3:
-        break
-else:
-    print('Acces permis')
+# counter = 0
+# while input('Introduceti parola:') != '7788':
+#     print('Parola gresita. Mai incercati.')
+#     counter =+ 1
+#     if counter == 3:
+#         break
+# else:
+#     print('Acces permis')
+
