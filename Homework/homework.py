@@ -82,20 +82,19 @@
 # print(lista_taskuri)
 
 
-#  modul 3_2
-obiecte = ['abc', 123, '1', 1]
-for i in obiecte :
-    print(f"Tipul obiectului {i} este:", type(i).__name__)
-
+# #  modul 3_2
+# obiecte = ['abc', 123, '1', 1]
+# for i in obiecte:
+#     print(f"Tipul obiectului {i} este:", type(i).__name__)
 
 
 
 # ex 2
-cuvant = input('Introduceti cuvant:')
-lista = cuvant.split()
-print(lista)
-consoane = 0
-for i in range(0, len(cuvant)):
-    if cuvant[i] not in ('a', 'e', 'i', 'o', 'u'):
-        consoane += 1
-print('Numarul consoanelor :', consoane)
+# cuvant = input('Introduceti cuvant:')
+# lista = cuvant.split()
+# print(lista)
+# consoane = 0
+# for i in range(0, len(cuvant)):
+#     if cuvant[i] not in ('a', 'e', 'i', 'o', 'u'):
+#         consoane += 1
+# print('Numarul consoanelor :', consoane)
