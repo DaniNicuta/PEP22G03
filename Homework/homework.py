@@ -51,9 +51,6 @@
 #  Cap 3
 
 
-
-
-
 #  ex 6
 
 #
@@ -71,7 +68,7 @@
 # for i in obiecte :
 #     print(f"Tipul obiectului {i} este:", type(i).__name__)
 
-   # ex 7
+# ex 7
 
 # lista = input('Introduceti lista de taskuri:')
 # lista_taskuri = lista.split(",")
@@ -86,7 +83,6 @@
 # obiecte = ['abc', 123, '1', 1]
 # for i in obiecte:
 #     print(f"Tipul obiectului {i} este:", type(i).__name__)
-
 
 
 # ex 2
