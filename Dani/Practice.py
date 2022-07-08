@@ -329,3 +329,52 @@
 #         adding += score
 #         counter += 1
 #     print(name, ":", adding / counter)
+# try:
+#     value = input('Enter a value:')
+#     print(int(value)/len(value))
+# except ValueError:
+#     print('bad input')
+# except ZeroDivisionError:
+#     print('Very bad input')
+# except TypeError:
+#     print('Very very bad input')
+# except:
+#     print('Boo..')
+# def calcul(x):
+#     y = 3 * x
+#     return 3 * x ** 2 - 4 * y + 4
+# n = 0
+# x = range(10, 21)
+# z = []
+# for i in x:
+#     rezultat = calcul(i)
+#     z.append(rezultat)
+# for x in range(10, 21):
+#     if n <= 10:
+#         print(f"""==== x = {x}'=== \n Solutia ecuatiei este:""", z[n])
+#         n += 1
+
+# nr = input("Cate carti doriti sa adaugati in biblioteca: ")
+# lista_nume = []
+# lista_autor = []
+# lista_an = []
+# carte = {}
+# for i in range(int(nr)):
+#     nume_carte = input("Numele cartii este :")
+#     an_publicatie = input("Anul publicarii este :")
+#     nume_autor = input("Numele autorului este: ")
+#     lista_nume.append(nume_carte)
+#     lista_autor.append(nume_autor)
+#     lista_an.append(an_publicatie)
+#
+# for i in range(int(nr)):
+#     print(f"cartea{i + 1} ")
+#     print(f"Numele cartii {i + 1}: {lista_nume[i]}")
+#     print(f"Numele autorului {i + 1}: {lista_autor[i]}")
+#     print(f"Anul publicatiei {i + 1}: {lista_an[i]}")
+#
+# for i in range(len(lista_nume)):
+#     carte['nume'] = lista_nume[i]
+#     carte['autor'] = lista_autor[i]
+#     carte['an'] = lista_an[i]
+#     print(carte)
