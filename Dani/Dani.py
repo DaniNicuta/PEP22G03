@@ -312,6 +312,11 @@
 # else:
 #     print("Alegere gresita")
 
+# import math
+#
+# for name in dir(math):
+#     print(name, end="\t")
+
 
 # my_str = 'TimTimiSoaRaTimTim'
 # print(my_str.strip('Tim'))

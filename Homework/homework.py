@@ -94,3 +94,33 @@
 #     if cuvant[i] not in ('a', 'e', 'i', 'o', 'u'):
 #         consoane += 1
 # print('Numarul consoanelor :', consoane)
+
+
+# Modul 5
+cnp = input('Introduceti CNP:')
+anul_nasterii = int(cnp[1:3])
+anul_curent = 2022
+if len(cnp) != 13:
+    print('CNP incorect')
+    print(input('Reintroduceti CNP:'))
+if int(cnp[0]) > 2:
+    anul_nasterii += 2000
+else:
+    anul_nasterii += 1900
+if anul_curent - anul_nasterii > 18:
+    print(anul_curent - anul_nasterii > 18)
+else:
+    print('Sunteti minor')
+
+from random import choice, sample
+
+premiul1 = ['un suc', 'o punga de chipsuri', 'o caserola de prajituri']
+premiul2 = ['un prajitor de paine', ' o consola de Gaming', 'o tastatura mecanica']
+premiul3 = ['Un robot de bucatarie', ' o masina', choice(premiul1), choice(premiul2)]
+bon = input('Introduceti valoarea bonului:')
+if int(bon) > 0 and int(bon) < 100:
+    print('Ati castigat:', choice(premiul1))
+elif int(bon) >= 100 and int(bon) < 500:
+    print('Ati castigat:', choice(premiul2))
+else:
+    print('Ati castigat:', choice(premiul3))
