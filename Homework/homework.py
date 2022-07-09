@@ -97,6 +97,10 @@
 
 
 # Modul 5
+
+print('--'* 5, 'Va rugam sa introduceti un CNP valid si valorea bonului pentru a participa la tombola noastra', '--' * 5)
+print('--'* 5,' ' * 10,'SUCCES!',' '*10, '--'* 5)
+
 cnp = input('Introduceti CNP:')
 anul_nasterii = int(cnp[1:3])
 anul_curent = 2022
