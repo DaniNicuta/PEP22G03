@@ -524,3 +524,108 @@
 # print("Avem", str(lungi), "cuvinte lungi.")
 
 
+# def mysplit(strng):
+#     # return [] if string is empty or contains whitespaces only
+#     if strng == '' or strng.isspace():
+#         return []
+#     # prepare a list to return
+#     lst = []
+#     # prepare a word to build subsequent words
+#     word = ''
+#     # check if we are currently inside a word (i.e., if the string starts with a word)
+#     inword = not strng[0].isspace()
+#     # iterate through all the characters in string
+#     for x in strng:
+#         # if we are currently inside a string...
+#         if inword:
+#             # ... and current character is not a space...
+#             if not x.isspace():
+#                 # ... update current word
+#                 word = word + x
+#             else:
+#                 # ... otherwise, we reached the end of the word so we need to append it to the list...
+#                 lst.append(word)
+#                 # ... and signal a fact that we are outside the word now
+#                 inword = False
+#         else:
+#             # if we are outside the word, and we reached a non-white character...
+#             if not x.isspace():
+#                 # ... it means that a new word has begun, so we need to remember it and...
+#                 inword = True
+#                 # ... store the first letter of the new word
+#                 word = x
+#             else:
+#                 pass
+#     # if we left the string and there is a non-empty string in word, we need to update the list
+#     if inword:
+#         lst.append(word)
+#     # return the list to invoker
+#     return lst
+#
+#
+# print(mysplit("To be or not to be, that is the question"))
+# print(mysplit("To be or not to be,that is the question"))
+# print(mysplit("   "))
+# print(mysplit(" abc "))
+# print(mysplit(""))
+
+# text = input("Enter text: ")
+#
+# # remove all spaces...
+# text = text.replace(' ', '')
+#
+# # ... and check if the word is equal to reversed itself
+# if len(text) > 1 and text.upper() == text[::-1].upper():
+#     print("It's a palindrome")
+# else:
+#     print("It's not a palindrome")
+#
+# str_1 = input("Enter the first string: ")
+# str_2 = input("Enter the second string: ")
+#
+# strx_1 = ''.join(sorted(list(str_1.upper().replace(' ', ''))))
+# strx_2 = ''.join(sorted(list(str_2.upper().replace(' ', ''))))
+# if len(strx_1) > 0 and strx_1 == strx_2:
+#     print("Anagrams")
+# else:
+#     print("Not anagrams")
+
+# date = input("Enter your birthday date (in the following format: YYYYMMDD or YYYYDDMM, 8 digits): ")
+# if len(date) != 8 or not date.isdigit():
+#     print("Invalid date format.")
+# else:
+#     while len(date) > 1:
+#         the_sum = 0
+#         for dig in date:
+#             the_sum += int(dig)
+#         print(date)
+#         date = str(the_sum)
+#     print("Your Digit of Life is: " + date)
+# word = input("Enter the word you wish to find: ").upper()
+# strn = input("Enter the string you wish to search through: ").upper()
+#
+# found = True
+# start = 0
+#
+# for ch in word:
+#     pos = strn.find(ch, start)
+#     if pos < 0:
+#         found = False
+#         break
+#     start = pos + 1
+# if found:
+#     print("Yes")
+# else:
+#     print("No")
+try:
+    x = int(input("Enter a number: "))
+    y = 1 / x
+    print(y)
+except ZeroDivisionError:
+    print("You cannot divide by zero, sorry.")
+except ValueError:
+    print("You must enter an integer value.")
+except:
+    print("Oh dear, something went wrong...")
+
+print("THE END.")
